@@ -35,7 +35,7 @@ def getFileId(url):
 # bypass limit function
 def bypassLimit(url):
 	service = drive
-	folderId = "1phkaMB33UsYL4WlwGRcZSASAZr2PZYip"
+	folderId = "[YOUR_FOLDER_ID]"
 	fileId = getFileId(url)
 	try:
 		sourceFile = service.files().get(fileId=fileId, fields="id,name,md5Checksum").execute()
