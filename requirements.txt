@@ -1,0 +1,3 @@
+python-telegram-bot
+google-api-python-client
+oauth2client
